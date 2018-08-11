@@ -4,6 +4,6 @@ window.addEventListener('load', function(){
   target.addEventListener('click', request);
 
   function request() {
-    window.location = '../apache-dist/apache-v2.4.34.tar.gz';
+    window.location = 'https://github.com/AliHammoud/apache-light/raw/master/apache-dist/apache-v2.4.34.tar.gz';
   }
 });
