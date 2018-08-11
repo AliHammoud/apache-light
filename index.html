@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <img src="img/apache-logo.png">
+  <div class="content">
+    <h1>A lightweight distribution of Apache on mac for those of you who don’t feel like installing MAMP</h1>
+    <p>Download and extract the package into your usr/local directory and run the below lines in terminal to be able to start your localhost with the command line.</p>
+    
+    <div class="cmdline">
+      <p class="code">
+        > echo 'export PATH=/usr/local/apache/bin:$PATH' >> ~/.bash_profile
+        > echo 'export MANPATH=/usr/local/apache/man:$MANPATH' >> ~/.bash_profile
+        > source ~/.bash_profile
+      </p>
+    </div>
+    
+    <p>Now, to start/stop Apache, all you have to do is:</p>
+    
+    <div class="cmdline">
+      <p class="code">
+        > sudo apachectl start
+        > sudo apachectl stop
+      </p>
+    </div>
+  </div>
+  <div class="btn"><p class="code">Download Apache v2.4.34</p></div>
+</body>
