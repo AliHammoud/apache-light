@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <head>
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/main.css">
+  <link href="css/reset.css" rel="stylesheet" >
+  <link href="css/main.css" rel="stylesheet" >
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet">
+  <script src="js/main.js"></script>
 </head>
 <body>
-  <img src="img/apache-logo.png">
+  <div class="logo">
+    <img src="img/apache-logo.png">
+  </div>
   <div class="content">
     <h1>A lightweight distribution of Apache on mac for those of you who don’t feel like installing MAMP</h1>
     <p>Download and extract the package into your usr/local directory and run the below lines in terminal to be able to start your localhost with the command line.</p>
     
     <div class="cmdline">
       <p class="code">
-        > echo 'export PATH=/usr/local/apache/bin:$PATH' >> ~/.bash_profile
-        > echo 'export MANPATH=/usr/local/apache/man:$MANPATH' >> ~/.bash_profile
-        > source ~/.bash_profile
+        <span>></span> echo 'export PATH=/usr/local/apache/bin:$PATH' >> ~/.bash_profile<br>
+        <span>></span> echo 'export MANPATH=/usr/local/apache/man:$MANPATH' >> ~/.bash_profile<br>
+        <span>></span> source ~/.bash_profile<br>
       </p>
     </div>
     
@@ -21,10 +25,12 @@
     
     <div class="cmdline">
       <p class="code">
-        > sudo apachectl start
-        > sudo apachectl stop
+        <span>></span> sudo apachectl start<br>
+        <span>></span> sudo apachectl stop<br>
       </p>
     </div>
   </div>
-  <div class="btn"><p class="code">Download Apache v2.4.34</p></div>
+  <div class="btn">
+    <p class="code">Download Apache v2.4.34</p>
+  </div>
 </body>
